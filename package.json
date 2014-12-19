@@ -1,0 +1,24 @@
+{
+    "version": "0.0.1",
+    "name": "com.abdallamag.filepickerwp",
+    "cordova_name": "FilePickerWP",
+    "description": "Cordova FilePicker Plugin for Windows Phone 8.1 for Cordova 3.x.x,4.x.x",
+    "license": "Apache 2.0",
+    "repo": "https://github.com/abdalla-magdi/cordovafilepickerWP.git",
+    "keywords": [
+        "cordova",
+        "file picker",
+        "files",
+        " windows phone",
+        " wp8"
+    ],
+    "platforms": [
+        "wp8"
+    ],
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=3.0.0"
+        }
+    ]
+}

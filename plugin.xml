@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="com.abdallamag.filepickerwp" version="0.0.1">
+
+    <name>FilePickerWP</name>
+    <description>Cordova FilePicker Plugin for Windows Phone 8.1</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,filepicker</keywords>
+    <author>Abdalla Magdi</author>
+	<repo>https://github.com/abdalla-magdi/cordovafilepickerWP.git</repo>
+
+    <js-module src="www/filePickerWP.js" name="FilePickerWP">
+        <clobbers target="FilePickerWP" />
+    </js-module>
+
+	<!-- wp8 -->
+    <platform name="wp8">
+        <config-file target="config.xml" parent="/*">
+            <feature name="FilePickerWP">
+                <param name="wp-package" value="FilePickerWP"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/wp/FilePickerWP.cs" />
+    </platform>
+	
+</plugin>
